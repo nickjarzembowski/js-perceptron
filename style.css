@@ -1,0 +1,110 @@
+
+h1 {
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 48px;
+font-weight: bold;
+letter-spacing: -2px;
+line-height: 50px;
+margin: 15px 0px 30px;
+padding: 5px 0 0;
+text-align:center;
+}
+
+p, button {
+border: 0;
+margin: 10px 0;
+outline: 0;
+padding: 0;
+vertical-align: baseline;
+color: #404040;
+font-family: 'Helvetica', 'Segoe', sans-serif;
+font-size: 16px;
+line-height: 1.5;
+text-align:center;
+}
+
+#wrapper {
+width:90%;
+margin-left:5%;
+margin-right: 5%;
+}
+#plot {
+border:5px solid black;
+padding-left: 0;
+padding-right: 0;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+.perceptron-wrapper {
+margin: 0 auto;
+}
+
+.btn-wrapper {
+width:100%;
+ text-align:center;
+	 position:relative;
+
+}
+
+.btn {
+width:50px;
+height:50px;
+margin:10px auto;
+font-size:10px;
+color:black;
+background-color:#efefef;
+border: 2px solid black;
+font-weight: bold;
+}
+
+.plots-wrapper {
+width:100%;
+ text-align:center;
+	 position:relative;
+}
+
+.example-plot {
+width:100px;
+height:100px;
+font-size:10px;
+color:black;
+background-color:#efefef;
+border: 2px solid black;
+font-weight: bold;
+  display: inline-block;
+}
+
+#s1 {
+background: url("s1.png");
+background-size: 100px 100px;
+background-repeat: no-repeat;
+}
+#s2 {
+background: url("s2.png");
+background-size: 100px 100px;
+background-repeat: no-repeat;
+}
+#ns1 {
+background: url("ns1.png");
+background-size: 100px 100px;
+background-repeat: no-repeat;
+}
+
+footer {
+background-color: #222222;
+margin-top:30px;
+padding: 10px;
+height:100px;
+text-align: center;
+}
+
+footer p {
+color:#e3e3e3;
+}
+
+body {
+margin:0;
+padding:0;
+}
+
